@@ -72,7 +72,54 @@ footer{
     border-style: double;
   }
 
+img {
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 15px;
+}
 
+/* Portfolio Page Styling */
+#Hangman {
+  background: url("../images/placeholder1.jpg") 0 0 no-repeat;
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
 
+#RPG {
+  background: url("../images/placeholder2.jpg") 0 0 no-repeat;
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+#Trivia {
+  background: url("../images/placeholder3.jpg") 0 0 no-repeat;
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+#Widget {
+  background: url("../images/placeholder4.jpg") 0 0 no-repeat;
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+#RPS {
+  background: url("../images/placeholder5.jpg") 0 0 no-repeat;
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
     
   
