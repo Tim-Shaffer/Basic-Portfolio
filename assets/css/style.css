@@ -6,22 +6,27 @@ p {
     color: #777777;
 }
 
+/* The parent of the details.  Sets the width to 960px */
 body {
     max-width: 960px;
 }
 
-  #nav-bar {
-      padding-bottom: 20px;
-  }
+    #nav-bar-name {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-color: #cccccc;
+        max-width: 200px;
+        text-align: center;
+    }
 
-  /* #nav-bar-name {
-    float: left;
-  } */
-
+  /* Sets the relative position of the list to the rightmost of the body */
   ul {
     list-style-type: none;
+    position: relative;
+    right: 0px; 
   }
 
+  /* Allows items to be listed from right to left */
   li {
     float: right;
   }
@@ -34,8 +39,9 @@ body {
     text-align: center;
   }
 
-  /* #main-info {
-      scroll-padding-top: 40px;
-  } */
+  #main-info{
+    background-image: url("../images/cork-board.png");
+  }
+
 
   
