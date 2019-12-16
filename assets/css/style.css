@@ -1,4 +1,4 @@
- h1{
+ h1 {
     color: #4aaaa5;
 } 
 
@@ -11,7 +11,7 @@ body {
    
 }
 
-header {
+nav {
     max-width: 960px;
     background-color: #ffffff;
     margin: 0px 200px 0px 200px;  
@@ -51,6 +51,7 @@ footer{
     padding: 8px;
     background-color: #ffffff;
     border-color: #cccccc;
+    border-style: ridge;
     text-align: center;
   }
 
@@ -58,8 +59,9 @@ footer{
    #main {
     background-image: url("../images/embossed-diamond.png");   
    } 
-  /* id section for main-info information.  Sets the width to 960px */
-   #main-info {
+
+    /* id section for main-info information.  Sets the width to 960px */
+    #main-info {
     /* max-width: 960px;  -- need to adjust for padding*/
     max-width: 860px;
     /* border: 15px solid green; */
@@ -71,4 +73,6 @@ footer{
   }
 
 
+
+    
   
