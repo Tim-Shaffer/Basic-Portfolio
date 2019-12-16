@@ -10,12 +10,22 @@ p {
 body {
    
 }
-    /* id section for nav-bar information.  Sets the width to 960px */
-    #nav-bar {
-        max-width: 960px;
-        background-color: #ffffff;
-    }
 
+header {
+    max-width: 960px;
+    background-color: #ffffff;
+    margin: 0px 200px 0px 200px;  
+    border-color:  #dddddd;
+
+}
+
+footer{
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    position: sticky;
+    background-color: #000000;
+    color: #ffffff;
+}
     #nav-bar-name {
         background-color: #4aaaa5;
         color: #ffffff;
@@ -50,8 +60,14 @@ body {
    } 
   /* id section for main-info information.  Sets the width to 960px */
    #main-info {
-    max-width: 960px;
-       
+    /* max-width: 960px;  -- need to adjust for padding*/
+    max-width: 860px;
+    /* border: 15px solid green; */
+    padding: 50px;
+    margin: 0px 200px 0px 200px;  
+    background-color: #ffffff;
+    border-color:  #dddddd; 
+    border-style: double;
   }
 
 
