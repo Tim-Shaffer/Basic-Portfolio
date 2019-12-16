@@ -6,10 +6,15 @@ p {
     color: #777777;
 }
 
-/* The parent of the details.  Sets the width to 960px */
+/* The parent of the details. */
 body {
-    max-width: 960px;
+   
 }
+    /* id section for nav-bar information.  Sets the width to 960px */
+    #nav-bar {
+        max-width: 960px;
+        background-color: #ffffff;
+    }
 
     #nav-bar-name {
         background-color: #4aaaa5;
@@ -39,8 +44,14 @@ body {
     text-align: center;
   }
 
-  #main-info{
-    background-image: url("../images/cork-board.png");
+  /* id section for main */
+   #main {
+    background-image: url("../images/embossed-diamond.png");   
+   } 
+  /* id section for main-info information.  Sets the width to 960px */
+   #main-info {
+    max-width: 960px;
+       
   }
 
 
