@@ -1,0 +1,27 @@
+ h1{
+    color: #4aaaa5;
+} 
+
+nav-bar.h1 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    text-align: center;
+  }
+
+  p {
+      color: #777777;
+  }
