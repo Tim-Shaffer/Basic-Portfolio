@@ -17,15 +17,16 @@ nav {
 
 }
 
+  /* Set Name Styling */
   #nav-bar-name {
       background-color: #4aaaa5;
       color: #ffffff;
-      border-color: #cccccc;
       max-width: 200px;
       text-align: center;
   }
 
-    /* Sets the relative position of the list to the rightmost of the body */
+    /* - Sets the relative position of the list to the rightmost of the body 
+       - removes the bullet from the listings */
   .nav-buttons {
     list-style-type: none;
     position: relative;
@@ -38,7 +39,8 @@ nav {
     float: right;
   }
   
-  li a {
+   /* Sets Anchor Styling */
+   li a {
     display: block;
     padding: 10px;
     background-color: #ffffff;
@@ -57,12 +59,12 @@ body {
   left: 0;
   top: 0;
 }
-  /* id section for main */
+  /* Set the Main Content Styling Across the pages */
    #main {
     background-image: url("../images/embossed-diamond.png");   
    } 
 
-    /* id section for main-info information.  Sets the width to 960px */
+    /* About Me information Specifics.  Sets the width to 960px */
     #main-info {
     /* max-width: 960px;  -- need to adjust for padding*/
     max-width: 860px;
@@ -82,7 +84,7 @@ body {
     padding: 15px;
   }
 
-/* Footer Styling */
+/* Footer Styling Across the pages*/
   footer{
   border-top: 8px solid #4aaaa5;
   text-align: center;
