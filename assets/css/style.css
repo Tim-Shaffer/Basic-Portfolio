@@ -98,6 +98,33 @@ body {
   color: #ffffff;
 }
 
+/* Contact Page Specific Styling */
+  #input-name {
+    width: 100%;
+    color: #777777;
+  }
+
+  #input-email {
+    width: 100%;
+    color: #777777;
+  }
+
+  #input-msg {
+    width: 100%;
+    color: #777777;
+    padding: 12px 0px;
+  }
+
+  #submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;  
+  }
+
 /* Portfolio Page Specific Styling */
 #Hangman {
   background: url("../images/placeholder1.jpg") 0 0 no-repeat;
