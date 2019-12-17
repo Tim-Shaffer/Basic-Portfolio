@@ -75,7 +75,8 @@ body {
     border-style: double;
   }
 
-  img {
+  /* About Me Photo Specifics.  Sets the width to 960px */
+  #about-photo {
     width: 200px;
     height: auto;
     margin: 5px;
