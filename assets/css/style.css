@@ -24,18 +24,6 @@ nav {
 
 }
 
-footer{
-    border-top: 8px solid #4aaaa5;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #000000;
-    color: #ffffff;
-}
-
     #nav-bar-name {
         background-color: #4aaaa5;
         color: #ffffff;
@@ -44,11 +32,12 @@ footer{
         text-align: center;
     }
 
-  /* Sets the relative position of the list to the rightmost of the body */
-  ul {
+    /* Sets the relative position of the list to the rightmost of the body */
+  .nav-buttons {
     list-style-type: none;
     position: relative;
     right: 0px; 
+   
   }
 
   /* Allows items to be listed from right to left */
@@ -58,11 +47,11 @@ footer{
   
   li a {
     display: block;
-    padding: 8px;
+    padding: 10px;
     background-color: #ffffff;
-    border-color: #cccccc;
-    border-style: ridge;
     text-align: center;
+    text-decoration: none;
+    color: #777777;
   }
 
   /* id section for main */
@@ -89,6 +78,18 @@ img {
   border: 1px solid #ccc;
   float: left;
   padding: 15px;
+}
+
+footer{
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /* Portfolio Page Styling */
