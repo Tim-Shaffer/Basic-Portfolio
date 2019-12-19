@@ -67,11 +67,12 @@ li {
 /* Set the Main Content Styling Across the pages */
 #main { 
   background-image: url("../images/embossed-diamond.png");  
-  width:  100%;  
+  width:  100%; 
  } 
 
-  /* About Me information Specifics.  Sets the width to 960px */
-  #main-info {
+  /* Main area Specifics.  Sets the width to 960px */
+#main-info {
+  position: relative;
   /* max-width: 960px;  -- need to adjust for padding*/
   max-width: 860px;
   padding: 50px;
@@ -80,6 +81,7 @@ li {
   border-color:  #dddddd; 
   border-style: double;
   height: 650px;
+  /* overflow: scroll; */
 }
 
 /* About Me Photo Specifics.  Sets the width to 960px */
