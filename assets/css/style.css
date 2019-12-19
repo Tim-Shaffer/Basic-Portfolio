@@ -132,43 +132,26 @@ color: #ffffff;
 }
 
 /* Portfolio Page Specific Styling */
-#Hangman {
-background: url("../images/placeholder1.jpg") 0 0 no-repeat;
-display: block;
-height: 80px;
-width: 80px;
-float: left;
+.pictures {
+  position: relative;
 }
 
-#RPG {
-background: url("../images/placeholder2.jpg") 0 0 no-repeat;
-display: block;
-height: 80px;
-width: 80px;
-float: left;
+.small {
+  width: 150px;
+  height: 150px;
 }
 
-#Trivia {
-background: url("../images/placeholder3.jpg") 0 0 no-repeat;
-display: block;
-height: 80px;
-width: 80px;
-float: left;
-}
-
-#Widget {
-background: url("../images/placeholder4.jpg") 0 0 no-repeat;
-display: block;
-height: 80px;
-width: 80px;
-float: left;
-}
-
-#RPS {
-background: url("../images/placeholder5.jpg") 0 0 no-repeat;
-display: block;
-height: 80px;
-width: 80px;
-float: left;
+.tag {
+  position: absolute;
+  width: 150px;
+  padding: 10px 0px; 
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+  left: 0px;
+  top: 60%; 
+  text-decoration: none; 
 }
   
