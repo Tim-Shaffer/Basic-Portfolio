@@ -160,4 +160,18 @@ color: #ffffff;
   top: 60%; 
   text-decoration: none; 
 }
-  
+
+/* From w3 Schools for column usage to get pictures in multiple columns*/  
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
