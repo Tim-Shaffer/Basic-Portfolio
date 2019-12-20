@@ -30,10 +30,13 @@ p {
 
 /* Set Name Styling */
 #nav-bar-name {
+    position: relative;
+    /* bottom: 0px; */
     background-color: #4aaaa5;
     color: #ffffff;
     max-width: 200px;
     text-align: center;
+    padding: 15px;
 }
 
   /* - Sets the relative position of the list to the rightmost of the body 
@@ -42,7 +45,6 @@ p {
   list-style-type: none;
   position: relative;
   right: 0px; 
- 
 }
 
 /* Allows items to be listed from right to left */
@@ -64,7 +66,8 @@ li {
 
 /* Set the Main Content Styling Across the pages */
 #main { 
-  background-image: url("../images/embossed-diamond.png");  
+  background-image: url("../images/embossed-diamond.png"); 
+  /* height: 100%;  */
   width:  100%; 
  } 
 
@@ -78,7 +81,9 @@ li {
   background-color: #ffffff;
   border-color:  #dddddd; 
   border-style: double;
-  height: 650px;
+  /* height: 650px; */
+  /* top: 20px; */
+  /* bottom: 20px;  */
   /* overflow: scroll; */
 }
 
