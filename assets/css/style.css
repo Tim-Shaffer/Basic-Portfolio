@@ -101,6 +101,17 @@ li {
   padding: 15px;
 }
 
+/* Separator Bar Across the pages */
+.separator {
+  border: none;
+  border-top: 3px solid #dddddd;
+  color:  #dddddd;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin-bottom: 15px;
+}
+
 /* Footer Styling Across the pages*/
 .footer{
 border-top: 8px solid #4aaaa5;
